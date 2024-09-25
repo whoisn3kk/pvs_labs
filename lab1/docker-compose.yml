@@ -1,0 +1,38 @@
+networks:
+  hazelcast_network:
+    driver: bridge
+
+services:
+  hazelcast-node-1:
+    image: hazelcast/hazelcast:5.3.6
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+      - HAZELCAST_THREAD_COUNT=16
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5701:5701"
+    networks:
+      - hazelcast_network
+  hazelcast-node-2:
+    image: hazelcast/hazelcast:5.3.6
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+      - HAZELCAST_THREAD_COUNT=16
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5702:5701"
+    networks:
+      - hazelcast_network
+  hazelcast-node-3:
+    image: hazelcast/hazelcast:5.3.6
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+      - HAZELCAST_THREAD_COUNT=16
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5703:5701"
+    networks:
+      - hazelcast_network

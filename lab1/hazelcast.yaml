@@ -1,0 +1,18 @@
+hazelcast:
+  cluster-name: "dev"
+  network:
+    join:
+      multicast:
+        enabled: true
+      tcp-ip:
+        member-list:
+          - "hazelcast-node-1"
+          - "hazelcast-node-2"
+          - "hazelcast-node-3"
+  cp-subsystem:
+    cp-member-count: 3
+    group-size: 3
+    session-time-to-live-seconds: 5
+    session-heartbeat-interval-seconds: 1
+    missing-cp-member-auto-removal-seconds: 14400
+    fail-on-indeterminate-operation-state: true

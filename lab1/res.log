@@ -1,0 +1,66 @@
+initing type: 0
+inited
+setted 0
+23:08:55 25.09 -- counter: 0
+Starting: increment
+23:08:55 25.09 -- counter: 1
+23:09:05 25.09 -- counter: 5265
+23:09:15 25.09 -- counter: 10815
+23:09:25 25.09 -- counter: 16511
+
+
+Result for increment
+Counter value: 17123
+Time: 30.02s
+————————————————————————————————————————————————
+initing type: 1
+inited
+setted 0
+22:34:53 25.09 -- counter: 0
+Starting: optimistic
+22:34:53 25.09 -- counter: 1
+22:35:03 25.09 -- counter: 6469
+22:35:13 25.09 -- counter: 13044
+22:35:23 25.09 -- counter: 19565
+22:35:33 25.09 -- counter: 26096
+22:35:43 25.09 -- counter: 32709
+22:35:53 25.09 -- counter: 39270
+22:36:03 25.09 -- counter: 45910
+22:36:13 25.09 -- counter: 52472
+22:36:23 25.09 -- counter: 59061
+22:36:33 25.09 -- counter: 65615
+22:36:43 25.09 -- counter: 72215
+22:36:53 25.09 -- counter: 78748
+22:37:03 25.09 -- counter: 85307
+22:37:13 25.09 -- counter: 91514
+22:37:23 25.09 -- counter: 98333
+
+
+Result for optimistic
+Counter value: 100000
+Time: 160.04s
+————————————————————————————————————————————————
+initing type: 2
+inited
+setted 0
+23:50:03 25.09 -- counter: 0
+Starting: pessimistic
+# LOGS WAS DISABLED 
+
+Result for pessimistic
+Counter value: 100000
+Time: 254.3s
+————————————————————————————————————————————————
+initing type: 3
+inited
+setted 0
+22:47:14 25.09 -- counter: 0
+Starting: atomic
+22:47:14 25.09 -- counter: 10
+22:47:24 25.09 -- counter: 70965
+
+
+Result for atomic
+Counter value: 100000
+Time: 20.01s
+————————————————————————————————————————————————
