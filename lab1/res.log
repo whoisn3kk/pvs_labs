@@ -43,13 +43,38 @@ Time: 160.04s
 initing type: 2
 inited
 setted 0
-23:50:03 25.09 -- counter: 0
+17:11:14 26.09 -- counter: 0
 Starting: pessimistic
-# LOGS WAS DISABLED 
+17:11:14 26.09 -- counter: 0
+17:11:24 26.09 -- counter: 3872
+17:11:34 26.09 -- counter: 7863
+17:11:44 26.09 -- counter: 12019
+17:11:54 26.09 -- counter: 16180
+17:12:04 26.09 -- counter: 20287
+17:12:14 26.09 -- counter: 24432
+17:12:24 26.09 -- counter: 28587
+17:12:34 26.09 -- counter: 32738
+17:12:44 26.09 -- counter: 36866
+17:12:54 26.09 -- counter: 41063
+17:13:04 26.09 -- counter: 45329
+17:13:14 26.09 -- counter: 49555
+17:13:24 26.09 -- counter: 53767
+17:13:34 26.09 -- counter: 57927
+17:13:44 26.09 -- counter: 62102
+17:13:54 26.09 -- counter: 66261
+17:14:04 26.09 -- counter: 70408
+17:14:14 26.09 -- counter: 74614
+17:14:24 26.09 -- counter: 78782
+17:14:34 26.09 -- counter: 82934
+17:14:44 26.09 -- counter: 87099
+17:14:54 26.09 -- counter: 91253
+17:15:04 26.09 -- counter: 95444
+17:15:14 26.09 -- counter: 99620
+
 
 Result for pessimistic
 Counter value: 100000
-Time: 254.3s
+Time: 250.04s
 ————————————————————————————————————————————————
 initing type: 3
 inited
