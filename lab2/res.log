@@ -1,0 +1,63 @@
+setted 0
+Starting: Lost-update
+20:57:25 26.09 -- counter: 79
+20:57:30 26.09 -- counter: 3563
+20:57:35 26.09 -- counter: 7036
+
+
+Result for Lost-update
+Counter value: 10482
+Time: 15.27s
+————————————————————————————————————————————————
+setted 0
+Starting: In-place update
+20:57:40 26.09 -- counter: 125
+20:57:45 26.09 -- counter: 35595
+20:57:50 26.09 -- counter: 71461
+
+
+Result for In-place update
+Counter value: 100000
+Time: 15.25s
+————————————————————————————————————————————————
+setted 0
+Starting: Row-level locking
+20:57:55 26.09 -- counter: 94
+20:58:00 26.09 -- counter: 19853
+20:58:05 26.09 -- counter: 39814
+20:58:10 26.09 -- counter: 60445
+20:58:15 26.09 -- counter: 80966
+
+
+Result for Row-level locking
+Counter value: 100000
+Time: 25.3s
+————————————————————————————————————————————————
+setted 0
+Starting: Optimistic concurrency control
+20:58:21 26.09 -- counter: 90
+20:58:26 26.09 -- counter: 5222
+20:58:31 26.09 -- counter: 10312
+20:58:36 26.09 -- counter: 15482
+20:58:41 26.09 -- counter: 20602
+20:58:46 26.09 -- counter: 25853
+20:58:51 26.09 -- counter: 31048
+20:58:56 26.09 -- counter: 36217
+20:59:01 26.09 -- counter: 41310
+20:59:06 26.09 -- counter: 46468
+20:59:11 26.09 -- counter: 51565
+20:59:16 26.09 -- counter: 56701
+20:59:21 26.09 -- counter: 61849
+20:59:26 26.09 -- counter: 67018
+20:59:31 26.09 -- counter: 72115
+20:59:36 26.09 -- counter: 77185
+20:59:41 26.09 -- counter: 82329
+20:59:47 26.09 -- counter: 87397
+20:59:52 26.09 -- counter: 92420
+20:59:57 26.09 -- counter: 97750
+
+
+Result for Optimistic concurrency control
+Counter value: 100000
+Time: 101.09s
+————————————————————————————————————————————————
